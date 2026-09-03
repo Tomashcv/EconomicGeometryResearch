@@ -1,0 +1,34 @@
+====================================================================================================
+ECONOMIC GEOMETRY RESEARCH — E2D PRECOMMITTED CHANGE-POINT DETECTION
+====================================================================================================
+
+INPUT_SHA256=6d3fe1beb27c59ce5771f298e5324fc07dad30173b3e8996944a3c806ad23221
+START_CHANGE_YEAR=1976
+END_CHANGE_YEAR=2025
+ANNUAL_CHANGE_OBSERVATIONS=50
+PRIMARY_MIN_SEGMENT_LENGTH=5
+MAX_SEGMENTS=8
+
+===== PRIMARY BIC SELECTION =====
+SELECTED_SEGMENTS=3
+SELECTED_BREAKS=2
+SELECTED_SSE=0.070235243837
+SELECTED_BIC=-689.266161608
+BREAK_YEARS=2008,2013
+
+===== SELECTED SEGMENTS =====
+SEGMENT_1=1976-2007 N=32 MEAN_DXC=+0.020011456 MEAN_DXH=-0.000297967 SIGNATURE=C_UP_H_DOWN
+SEGMENT_2=2008-2012 N=5 MEAN_DXC=+0.008581370 MEAN_DXH=+0.064859823 SIGNATURE=C_UP_H_UP
+SEGMENT_3=2013-2025 N=13 MEAN_DXC=+0.017981886 MEAN_DXH=-0.021654109 SIGNATURE=C_UP_H_DOWN
+
+===== MINIMUM-SEGMENT-LENGTH SENSITIVITY =====
+MINLEN_4: SEGMENTS=3 BREAKS=2008,2013
+MINLEN_6: SEGMENTS=4 BREAKS=2001,2007,2013
+
+===== INTERPRETATION LIMIT =====
+Break years were selected without historical event labels.
+E2D detects changes in the mean annual [Delta x_C, Delta x_H] vector.
+Detected segments are descriptive statistical regimes, not causal regimes.
+Historical interpretation occurs only after this output is frozen.
+No Real Inflation scalar is estimated in E2D.
+

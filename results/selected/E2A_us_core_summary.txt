@@ -1,0 +1,41 @@
+====================================================================================================
+ECONOMIC GEOMETRY RESEARCH — E2A PRECOMMITTED US CORE H1/H2 TEST
+====================================================================================================
+
+REFERENCE_DATE=1991-01-01
+START_DATE=1991-01-01
+END_DATE=2026-04-01
+QUARTERS=142
+
+===== QA =====
+MAX_REAL_DPI_RECONSTRUCTION_RELATIVE_ERROR=0.000338884830
+MAX_REAL_PCE_RECONSTRUCTION_RELATIVE_ERROR=0.000354630981
+
+===== ENDPOINT RELATIVE TO 1991Q1 =====
+CPP_INDEX=183.588600
+HA_INDEX=90.390111
+X_C=0.607527196
+X_H=-0.101035318
+DIVERGENCE_XC_MINUS_XH=0.708562514
+
+===== DESCRIPTIVE DEPENDENCE =====
+LEVEL_PEARSON_CORR_XC_XH=-0.281581369
+DELTA_PEARSON_CORR_DXC_DXH=0.817426506
+
+===== PRECOMMITTED SIGN TEST =====
+AVAILABLE_DELTA_QUARTERS=141
+DXC_POS_DXH_NEG=50
+DXC_NEG_DXH_POS=7
+DXC_POS_DXH_POS=61
+DXC_NEG_DXH_NEG=23
+P2_EXISTS=1
+
+===== IDENTITY CHECK =====
+DIVERGENCE_XC_MINUS_XH = ln(HOUSE_PRICE_REL / CONSUMER_PRICE_REL)
+Income cancels algebraically from this divergence quantity.
+
+===== INTERPRETATION LIMIT =====
+P2_EXISTS=1 is evidence that consumption and housing-access changes can move in opposite directions.
+It does NOT establish H1 multidimensionality by itself.
+No causal claim is authorized.
+

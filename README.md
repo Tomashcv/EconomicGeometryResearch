@@ -116,6 +116,12 @@ The project has progressed well beyond the early macro prototype into survey-est
 
 That boundary is part of the research design, not an unfinished README disclaimer.
 
+## License
+
+The software and original documentation in this repository are licensed under the [MIT License](LICENSE).
+
+Third-party datasets, source materials, agency content, trademarks and other third-party materials are not covered by this license and remain subject to their respective terms.
+
 ## Disclaimer
 
 Independent research project. It is not affiliated with or endorsed by the U.S. government agencies, data providers or institutions referenced in the research.
